@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shwetha Venkatesh | Finance Student</title>
+<meta name="description" content="Finance student at Rutgers Honors College with private equity and investment banking experience.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f9fc; --ink: #14213d; --muted: #55607a; --card: #ffffff;
+    --line: #dbe2ee; --accent: #2a5bd7; --chip: #e6edfb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1626; --ink: #eaf0ff; --muted: #9aa8c7; --card: #172036;
+      --line: #27324d; --accent: #7fa4ff; --chip: #22305a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 400 1.05rem/1.65 "Inter", system-ui, sans-serif; }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 1.5rem; }
+
+  nav { padding: 1.25rem 0; border-bottom: 1px solid var(--line); }
+  nav .wrap { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; }
+  nav strong { font-family: "Fraunces", Georgia, serif; font-size: 1.15rem; }
+  nav ul { list-style: none; display: flex; gap: 1.25rem; margin: 0; padding: 0; }
+  nav a { text-decoration: none; color: var(--muted); font-weight: 500; }
+  nav a:hover { color: var(--accent); }
+
+  header.hero { padding: 5rem 0 4rem; }
+  .hero h1 { font-family: "Fraunces", Georgia, serif; font-weight: 800; font-size: clamp(1.8rem, 4.6vw, 3rem); line-height: 1.15; margin: 0 0 1.25rem; max-width: 20em; }
+  .hero p { color: var(--muted); margin: 0 0 1.75rem; max-width: 34em; }
+  .links { display: flex; gap: .75rem; flex-wrap: wrap; }
+  .btn { display: inline-block; padding: .6rem 1.1rem; border-radius: 8px; text-decoration: none; font-weight: 600; border: 1.5px solid var(--accent); }
+  .btn.primary { background: var(--accent); color: var(--bg); }
+  .btn:hover { opacity: .85; }
+
+  section { padding: 3rem 0; border-top: 1px solid var(--line); }
+  h2 { font-family: "Fraunces", Georgia, serif; font-size: 1.9rem; margin: 0 0 1.5rem; }
+
+  .skill-group { margin-bottom: 1.5rem; }
+  .skill-group h3 { font-size: 1rem; margin: 0 0 .6rem; color: var(--muted); font-weight: 600; }
+  .chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
+  .chips li { background: var(--chip); padding: .35rem .85rem; border-radius: 999px; font-weight: 500; font-size: .95rem; }
+  .chips li.top { background: var(--accent); color: var(--bg); }
+
+  .projects { display: grid; gap: 1.25rem; }
+  .project { background: var(--card); border: 1px solid var(--line); border-left: 5px solid var(--accent); border-radius: 6px; padding: 1.4rem 1.5rem; }
+  .project h3 { margin: 0 0 .3rem; font-size: 1.2rem; }
+  .project .meta { display: block; font-size: .9rem; font-weight: 500; color: var(--accent); margin-bottom: .6rem; }
+  .project p { margin: 0; color: var(--muted); }
+
+  footer { padding: 2.5rem 0 3.5rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .95rem; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <strong>Shwetha Venkatesh</strong>
+    <ul>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ============ 1. PERSONAL STATEMENT ============ -->
+<header class="hero">
+  <div class="wrap">
+    <h1>I'm a Rutgers Honors College finance student with private equity and investment banking experience in LBO modeling, valuation, and deal analysis.</h1>
+    <p>B.S. in Finance, Rutgers University, May 2028.</p>
+    <div class="links">
+      <!-- ✏️ FILL IN: your GitHub username (not on your resume) -->
+      <a class="btn primary" href="https://github.com/[YOUR-GITHUB-USERNAME]">GitHub</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ 2. SKILLS ============ -->
+<section id="skills">
+  <div class="wrap">
+    <h2>Skills</h2>
+
+    <div class="skill-group">
+      <h3>Finance</h3>
+      <ul class="chips">
+        <li class="top">LBO Modeling</li>
+        <li class="top">Valuation &amp; Comps</li>
+        <li class="top">Three-Statement Analysis</li>
+        <li>Due Diligence</li>
+        <li>Investment Analysis</li>
+        <li>Equity Research</li>
+      </ul>
+    </div>
+
+    <div class="skill-group">
+      <h3>Tools</h3>
+      <ul class="chips">
+        <li class="top">Excel</li>
+        <li>PowerPoint</li>
+        <li>Word</li>
+        <li>Airtable</li>
+        <li>HubSpot</li>
+        <li>Sales Navigator</li>
+      </ul>
+    </div>
+
+    <div class="skill-group">
+      <h3>Languages &amp; Training</h3>
+      <ul class="chips">
+        <li>English (Native)</li>
+        <li>Tamil (Native)</li>
+        <li>Training the Street LBO Modeling</li>
+        <li>Financial Markets (Yale)</li>
+        <li>JPM Investment Banking Job Simulation</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3. PROJECTS ============ -->
+<section id="projects">
+  <div class="wrap">
+    <h2>Projects</h2>
+    <div class="projects">
+
+      <article class="project">
+        <h3>LBO Models &amp; Valuation Analyses</h3>
+        <span class="meta">Adelphi Capital Partners, Private Equity Analyst Intern, May to Aug 2026</span>
+        <p>Built LBO models and comparable-company valuations for deal opportunities involving industrial companies up to $15M EBITDA, and drafted investment theses and financial summaries for 10+ acquisition targets.</p>
+      </article>
+
+      <article class="project">
+        <h3>Equity Research Report</h3>
+        <span class="meta">Rutgers Road to Wall Street Program, Cohort 15</span>
+        <p>Produced a full equity research report as the program's final deliverable, combining an Excel-based financial model, industry research, and an investment recommendation.</p>
+      </article>
+
+      <article class="project">
+        <h3>Investor Sourcing &amp; Pitch Deck Review</h3>
+        <span class="meta">361 Firm, Investment Banking Intern, May to Aug 2025</span>
+        <p>Sourced and qualified 25 prospective investors for transactions up to $40M in enterprise value, and analyzed financial models and investor pitch decks to assess deal viability.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Get in touch: <a href="mailto:shwetha.venkatesh07@gmail.com">shwetha.venkatesh07@gmail.com</a>
+    <br>&copy; 2026 Shwetha Venkatesh
+  </div>
+</footer>
+
+</body>
+</html>
